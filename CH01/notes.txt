@@ -1,0 +1,24 @@
+Creating an Executable File
+	1. The programmer uses an editor to write the code for the program, which
+	usually has the extension .cpp.
+	2. Then the compiler is invoked, which reads the source code and translates
+	it into an object file, which usually has the extension .obj
+	3. Finally a linker runs and links the object file to any external files as
+	necessary and creates an executable file, usually ending in .exe.
+
+
+Dealing with Errors
+	1. Compile errors: Occur during code compilation. cause an object file not
+	to be produced. they can be syntax errors, which are caused by typos. the 
+	compiler can also issue warnings, which don't have to be listened to, but it
+	is recomended that you fix them and then recompile and run again.
+	2. Link errors: occur ding the linking process. may indicate that the
+	program references something externally that cannot be found.
+	3. Run-time errors: Occur when the executable is run. they can cause a crash
+	but are often just logic errors that don't cause the program to crash.
+
+
+Understanding the ISO Standard
+	The ISO standdard for C++ is a definition of C++ that describes exactly how
+	the language should work. It also defines a set of files called the Standard
+	Library that contians building blocks for every programming task. 
